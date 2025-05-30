@@ -92,4 +92,70 @@ public class Inventory {
 		this.armorDefense = armorDefense;
 		this.hasArmor = true;
 	}
+
+	public boolean hasDungeonKey() {
+		return dungeonKey;
+	}
+
+	public boolean hasForestScroll() {
+		return forestScroll;
+	}
+
+	public boolean hasAncientStone() {
+		return ancientStone;
+	}
+
+	public boolean hasWeapon() {
+		return hasWeapon;
+	}
+
+	public boolean hasArmor() {
+		return hasArmor;
+	}
+
+	public void addMoney(int amount) {
+		this.money += amount;
+	}
+
+	public boolean spendMoney(int amount) {
+		if (money >= amount) {
+			money -= amount;
+			return true;
+		}
+		return false;
+	}
+
+	public void equipWeapon(String weaponName, int damage) {
+		this.weaponDamage = damage;
+		this.hasWeapon = true;
+	}
+
+	public void equipArmor(String armorName, int defense) {
+		this.armorDefense = defense;
+		this.hasArmor = true;
+	}
+
+	public void upgradeWeapon(String weaponName, int damage) {
+		this.weaponDamage = damage;
+	}
+
+	public void upgradeArmor(String armorName, int defense) {
+		this.armorDefense = defense;
+	}
+
+	public void collectDungeonKey() {
+		this.dungeonKey = true;
+	}
+
+	public void collectForestScroll() {
+		this.forestScroll = true;
+	}
+
+	public void collectAncientStone() {
+		this.ancientStone = true;
+	}
+
+	public boolean hasAllQuestItems() {
+		return dungeonKey && forestScroll && ancientStone;
+	}
 }

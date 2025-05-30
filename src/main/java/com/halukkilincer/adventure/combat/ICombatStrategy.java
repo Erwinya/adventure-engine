@@ -22,7 +22,7 @@ public interface ICombatStrategy {
      * @return true if the player wins the combat, false if the player loses or retreats
      * @throws IllegalArgumentException if either player or enemy is null
      */
-    boolean executeCombat(AbstractCharacter player, Enemy enemy);
+    boolean executeCombat(AbstractCharacter player, Enemy enemy) throws InterruptedException;
 
     /**
      * Gets the name of the combat strategy.

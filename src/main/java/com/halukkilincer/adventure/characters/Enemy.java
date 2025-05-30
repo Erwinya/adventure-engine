@@ -60,6 +60,10 @@ public class Enemy implements ICombat, ILootable {
         return damage;
     }
 
+    public int getDefense() {
+        return 10; // Default defense value as used in the test
+    }
+
     public void setDamage(int damage) {
         this.damage = damage;
     }

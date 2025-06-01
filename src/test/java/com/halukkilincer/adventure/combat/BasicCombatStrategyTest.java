@@ -48,7 +48,7 @@ class BasicCombatStrategyTest {
         assertFalse(player.isAlive());
         assertTrue(enemy.isAlive());
     }
-
+ 
     @Test
     void testGetStrategyName() {
         assertEquals("Basic Combat Strategy", strategy.getStrategyName());

@@ -11,7 +11,7 @@ class InventoryTest {
     void setUp() {
         inventory = new Inventory();
     }
-
+ 
     @Test
     void testInitialState() {
         assertFalse(inventory.hasDungeonKey());

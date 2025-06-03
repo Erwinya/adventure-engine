@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EnemyTest {
     private Enemy enemy;
-
+ 
     @BeforeEach
     void setUp() {
         enemy = new Enemy("Test Enemy", 100, 20, 10);

@@ -53,7 +53,7 @@ class BasicCombatStrategyTest {
     void testGetStrategyName() {
         assertEquals("Basic Combat Strategy", strategy.getStrategyName());
     }
- 
+  
     // Test double for AbstractCharacter
     private static class TestCharacter extends AbstractCharacter {
         public TestCharacter(String name, int health, int damage, int defense) {

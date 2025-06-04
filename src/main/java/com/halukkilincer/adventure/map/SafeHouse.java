@@ -7,7 +7,7 @@ public class SafeHouse extends NormalLoc {
 	public SafeHouse(AbstractCharacter player) {
 		super(player, "Güvenli Ev", "🏠");
 	}
-
+ 
 	@Override
 	public boolean getLocation() {
 		System.out.println("""

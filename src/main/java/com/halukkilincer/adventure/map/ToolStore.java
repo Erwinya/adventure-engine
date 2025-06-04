@@ -12,7 +12,7 @@ public class ToolStore extends Location {
     public ToolStore(AbstractCharacter player) {
         super(player, "Ghua Pazarı", "🛒");
     }
-
+ 
     @Override
     public boolean getLocation() throws InterruptedException {
         System.out.println("\n╔══════════════════════════════════════════════════════════╗");

@@ -10,7 +10,7 @@ public class DarkCaverns extends BattleLoc {
     public DarkCaverns(AbstractCharacter player) {
         super(player, "Karanlık Mağaralar", "🏔️", SHADOW_BEAST, "Kadim Taş", 2);
     }
-
+ 
     @Override
     public boolean getLocation() throws InterruptedException {
         System.out.println("""

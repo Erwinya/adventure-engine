@@ -10,7 +10,7 @@ public class ShadowForest extends BattleLoc {
     public ShadowForest(AbstractCharacter player) {
         super(player, "Gölgeler Ormanı", "🌲", VOID_MINION, "Orman Parşömeni", 3);
     }
-
+ 
     @Override
     public boolean getLocation() throws InterruptedException {
         System.out.println("""

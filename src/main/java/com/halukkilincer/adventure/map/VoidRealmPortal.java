@@ -11,7 +11,7 @@ public class VoidRealmPortal extends BattleLoc {
     public VoidRealmPortal(AbstractCharacter player) {
         super(player, "Boşluk Diyarı Kapısı", "🌀", VOID_LORD, "Void Kristali", 1);
     }
-
+ 
     @Override
     public boolean getLocation() throws InterruptedException {
         if (!player.getInventory().isForestScroll() || !player.getInventory().isAncientStone()) {

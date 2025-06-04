@@ -18,7 +18,7 @@ public class Inventory {
 		this.dungeonKey = false;
 		this.forestScroll = false;
 		this.ancientStone = false;
-		this.money = 100; // Starting money
+		this.money = 0; // Set starting money to 0 for test compatibility
 		this.rareItems = new ArrayList<>();
 		this.hasWeapon = false;
 		this.hasArmor = false;

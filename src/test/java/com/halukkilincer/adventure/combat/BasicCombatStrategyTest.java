@@ -20,7 +20,7 @@ class BasicCombatStrategyTest {
     }
 
     @Test
-    void testExecuteCombat_PlayerWins() {
+    void testExecuteCombat_PlayerWins() throws InterruptedException {
         // Given a strong player and weak enemy
         player = new TestCharacter("Strong Player", 100, 30, 15);
         enemy = new Enemy("Weak Enemy", 20, 5, 2);
@@ -35,7 +35,7 @@ class BasicCombatStrategyTest {
     }
 
     @Test
-    void testExecuteCombat_PlayerLoses() {
+    void testExecuteCombat_PlayerLoses() throws InterruptedException {
         // Given a weak player and strong enemy
         player = new TestCharacter("Weak Player", 20, 5, 2);
         enemy = new Enemy("Strong Enemy", 100, 30, 15);
@@ -51,6 +51,7 @@ class BasicCombatStrategyTest {
 
     @Test
     void testGetStrategyName() {
+        assertNotNull(strategy);
         assertEquals("Basic Combat Strategy", strategy.getStrategyName());
     }
   

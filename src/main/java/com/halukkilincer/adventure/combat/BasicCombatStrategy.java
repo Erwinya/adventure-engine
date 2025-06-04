@@ -22,6 +22,6 @@ public class BasicCombatStrategy implements ICombatStrategy {
 
     @Override
     public String getStrategyName() {
-        return "Temel Savaş";
+        return "Basic Combat Strategy";
     }
-} 
+}

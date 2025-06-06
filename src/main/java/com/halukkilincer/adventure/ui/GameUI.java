@@ -32,12 +32,12 @@ public class GameUI {
                 ║   Orman Parşömenini bul                                ║
                 ║   Void Lord'un minyonlarıyla savaş                     ║
                 ╠════════════════════════════════════════════════════════╣
-                ║ 4. 🏔️ KARANLIK MAĞARALAR                              ║
+                ║ 4. 🏔️ KARANLIK MAĞARALAR                                ║
                 ╠════════════════════════════════════════════════════════╣
                 ║   Kadim Taşı ele geçir                                 ║
                 ║   Gölge Canavarlarıyla yüzleş                          ║
                 ╠════════════════════════════════════════════════════════╣
-                ║ 5. 🌀 BOŞLUK DİYARI KAPISI                            ║
+                ║ 5. 🌀 BOŞLUK DİYARI KAPISI                             ║
                 ╠════════════════════════════════════════════════════════╣
                 ║   Void Lord ile son savaş                              ║
                 ║   Aetheria'nın kaderini belirle                        ║

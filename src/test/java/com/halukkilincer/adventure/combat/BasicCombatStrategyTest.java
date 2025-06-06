@@ -2,6 +2,8 @@ package com.halukkilincer.adventure.combat;
 
 import com.halukkilincer.adventure.characters.AbstractCharacter;
 import com.halukkilincer.adventure.characters.Enemy;
+import com.halukkilincer.adventure.interfaces.ICombatStrategy;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

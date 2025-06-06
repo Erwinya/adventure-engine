@@ -18,14 +18,14 @@ public class Assassin extends AbstractCharacter {
     public String getDescription() {
         return """
                ╔═══════════════════════════════════════════════════════════╗
-               ║              🗡️  SUİKASTÇI SEÇİLDİ  🗡️                     ║
-               ║ Suikastçı sessizliği bir silah gibi kullanıyordu.        ║
-               ║ Bir anlık tereddüt bile düşmanına ölüm getirebilirdi.    ║
-               ╠══════════════════════════════════════════════════════════╝
-               ║ 🗡️  Saldırı Gücü : %d                                     ║
-               ║ ❤️  Can Değeri   : %d                                     ║
-               ║ 🛡️  Savunma      : %d                                      ║
-               ╚══════════════════════════════════════════════════════════╝
+               ║              🗡️  SUİKASTÇI SEÇİLDİ  🗡️                      ║
+               ║ Suikastçı sessizliği bir silah gibi kullanıyordu.         ║
+               ║ Bir anlık tereddüt bile düşmanına ölüm getirebilirdi.     ║
+               ╠═══════════════════════════════════════════════════════════╝
+               ║ 🗡️  Saldırı Gücü : %d                                      ║
+               ║ ❤️  Can Değeri   : %d                                      ║
+               ║ 🛡️  Savunma      : %d                                       ║
+               ╚═══════════════════════════════════════════════════════════╝
                """.formatted(damage, health, defense);
     }
 } 

@@ -18,14 +18,14 @@ public class Warrior extends AbstractCharacter {
     public String getDescription() {
         return """
                ╔═══════════════════════════════════════════════════════════╗
-               ║              ⚔️  SAVAŞÇI SEÇİLDİ  ⚔️                       ║
-               ║ Savaşçı baltasını sıkıca kavradı. Gücü, sadece           ║
-               ║ kaslarında değil, yüreğindeki sarsılmaz inançtaydı.      ║
-               ╠══════════════════════════════════════════════════════════╝
-               ║ 🗡️  Saldırı Gücü : %d                                     ║
-               ║ ❤️  Can Değeri   : %d                                    ║
-               ║ 🛡️  Savunma      : %d                                     ║
-               ╚══════════════════════════════════════════════════════════╝
+               ║              ⚔️  SAVAŞÇI SEÇİLDİ  ⚔️                        ║
+               ║ Savaşçı baltasını sıkıca kavradı. Gücü, sadece            ║
+               ║ kaslarında değil, yüreğindeki sarsılmaz inançtaydı.       ║
+               ╠═══════════════════════════════════════════════════════════╝
+               ║ 🗡️  Saldırı Gücü : %d                                      ║
+               ║ ❤️  Can Değeri   : %d                                     ║
+               ║ 🛡️  Savunma      : %d                                      ║
+               ╚═══════════════════════════════════════════════════════════╝
                """.formatted(damage, health, defense);
     }
 } 

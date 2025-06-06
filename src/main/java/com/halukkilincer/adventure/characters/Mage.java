@@ -18,15 +18,15 @@ public class Mage extends AbstractCharacter {
     public String getDescription() {
         return """
                ╔═══════════════════════════════════════════════════════════╗
-               ║              🔮  BÜYÜCÜ SEÇİLDİ  🔮                      ║
-               ║ Büyücü kadim rünleri fısıldayarak ellerinde              ║
-               ║ alevler dans ettiriyordu. Gökyüzünü yaracak bir          ║
-               ║ güçle, savaşın kaderini değiştirebilirdi.                ║
-               ╠══════════════════════════════════════════════════════════╝
-               ║ 🗡️  Saldırı Gücü : %d                                     ║
-               ║ ❤️  Can Değeri   : %d                                     ║
-               ║ 🛡️  Savunma      : %d                                      ║
-               ╚══════════════════════════════════════════════════════════╝
+               ║              🔮  BÜYÜCÜ SEÇİLDİ  🔮                       ║
+               ║ Büyücü kadim rünleri fısıldayarak ellerinde               ║
+               ║ alevler dans ettiriyordu. Gökyüzünü yaracak bir           ║
+               ║ güçle, savaşın kaderini değiştirebilirdi.                 ║
+               ╠═══════════════════════════════════════════════════════════╝
+               ║ 🗡️  Saldırı Gücü : %d                                      ║
+               ║ ❤️  Can Değeri   : %d                                      ║
+               ║ 🛡️  Savunma      : %d                                       ║
+               ╚═══════════════════════════════════════════════════════════╝
                """.formatted(damage, health, defense);
     }
 } 

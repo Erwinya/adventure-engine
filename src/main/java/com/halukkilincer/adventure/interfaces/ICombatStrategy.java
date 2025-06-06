@@ -1,4 +1,4 @@
-package com.halukkilincer.adventure.combat;
+package com.halukkilincer.adventure.interfaces;
 
 import com.halukkilincer.adventure.characters.AbstractCharacter;
 import com.halukkilincer.adventure.characters.Enemy;

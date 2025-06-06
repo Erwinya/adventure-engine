@@ -16,7 +16,7 @@ public class ToolStore extends Location {
     @Override
     public boolean getLocation() throws InterruptedException {
         System.out.println("\n╔══════════════════════════════════════════════════════════╗");
-        System.out.println("║                    GHUA PAZARI                          ║");
+        System.out.println("║                    GHUA PAZARI                           ║");
         System.out.println("╚══════════════════════════════════════════════════════════╝");
 
         boolean showMenu = true;
@@ -24,9 +24,9 @@ public class ToolStore extends Location {
             System.out.println("\n╔══════════════════════════════════════════════════════════╗");
             System.out.println("║                    MAĞAZA MENÜSÜ                         ║");
             System.out.println("╠══════════════════════════════════════════════════════════╣");
-            System.out.println("║ 1. ⚔️  SİLAHLAR                                         ║");
-            System.out.println("║ 2. 🛡️  ZIRHLAR                                          ║");
-            System.out.println("║ 3. 🔙 ÇIKIŞ YAP                                         ║");
+            System.out.println("║ 1. ⚔️  SİLAHLAR                                           ║");
+            System.out.println("║ 2. 🛡️  ZIRHLAR                                            ║");
+            System.out.println("║ 3. 🔙 ÇIKIŞ YAP                                          ║");
             System.out.println("╚══════════════════════════════════════════════════════════╝");
             System.out.println("\n💰 Mevcut Altın: " + player.getInventory().getMoney());
 
@@ -56,9 +56,9 @@ public class ToolStore extends Location {
         System.out.println("\n╔══════════════════════════════════════════════════════════╗");
         System.out.println("║                      SİLAHLAR                            ║");
         System.out.println("╠══════════════════════════════════════════════════════════╣");
-        System.out.println("║ 1. 🗡️  Demir Kılıç   | Hasar: +2  | Fiyat: 25 Altın     ║");
-        System.out.println("║ 2. ⚔️  Çelik Kılıç   | Hasar: +3  | Fiyat: 35 Altın     ║");
-        System.out.println("║ 3. 🗡️  Mitril Kılıç  | Hasar: +7  | Fiyat: 45 Altın     ║");
+        System.out.println("║ 1. 🗡️  Demir Kılıç   | Hasar: +2  | Fiyat: 25 Altın       ║");
+        System.out.println("║ 2. ⚔️  Çelik Kılıç   | Hasar: +3  | Fiyat: 35 Altın       ║");
+        System.out.println("║ 3. 🗡️  Mitril Kılıç  | Hasar: +7  | Fiyat: 45 Altın       ║");
         System.out.println("║ 4. 🔙 GERİ DÖN                                           ║");
         System.out.println("╚══════════════════════════════════════════════════════════╝");
     }
@@ -67,9 +67,9 @@ public class ToolStore extends Location {
         System.out.println("\n╔══════════════════════════════════════════════════════════╗");
         System.out.println("║                      ZIRHLAR                             ║");
         System.out.println("╠══════════════════════════════════════════════════════════╣");
-        System.out.println("║ 1. 🛡️  Hafif Zırh    | Defans: +1 | Fiyat: 15 Altın     ║");
-        System.out.println("║ 2. 🛡️  Orta Zırh     | Defans: +3 | Fiyat: 25 Altın     ║");
-        System.out.println("║ 3. 🛡️  Ağır Zırh     | Defans: +5 | Fiyat: 40 Altın     ║");
+        System.out.println("║ 1. 🛡️  Hafif Zırh    | Defans: +1 | Fiyat: 15 Altın       ║");
+        System.out.println("║ 2. 🛡️  Orta Zırh     | Defans: +3 | Fiyat: 25 Altın       ║");
+        System.out.println("║ 3. 🛡️  Ağır Zırh     | Defans: +5 | Fiyat: 40 Altın       ║");
         System.out.println("║ 4. 🔙 GERİ DÖN                                           ║");
         System.out.println("╚══════════════════════════════════════════════════════════╝");
     }

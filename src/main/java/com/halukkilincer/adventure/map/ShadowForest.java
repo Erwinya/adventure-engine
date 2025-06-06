@@ -18,9 +18,9 @@ public class ShadowForest extends BattleLoc {
                 ╔══════════════════════════════════════════════════════════╗
                 ║                  GÖLGELER ORMANI                         ║
                 ╠══════════════════════════════════════════════════════════╣
-                ║ Karanlık ağaçların arasında ilerliyorsun...             ║
-                ║ Her adımda gölgeler daha da koyulaşıyor.                ║
-                ║ Void Minyonları'nın varlığını hissedebiliyorsun...      ║
+                ║ Karanlık ağaçların arasında ilerliyorsun...              ║
+                ║ Her adımda gölgeler daha da koyulaşıyor.                 ║
+                ║ Void Minyonları'nın varlığını hissedebiliyorsun...       ║
                 ╚══════════════════════════════════════════════════════════╝
                 """);
         

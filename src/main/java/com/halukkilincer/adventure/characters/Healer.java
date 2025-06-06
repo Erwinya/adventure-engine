@@ -18,15 +18,15 @@ public class Healer extends AbstractCharacter {
     public String getDescription() {
         return """
                ╔═══════════════════════════════════════════════════════════╗
-               ║              💚  ŞİFACI SEÇİLDİ  💚                     ║
-               ║ Şifacı müttefiklerinin son umudu olmuştu.               ║
-               ║ Şifalı büyüleriyle yaraları sarıyor,                    ║
-               ║ lanetleri yok ediyordu.                                 ║
-               ╠══════════════════════════════════════════════════════════╝
-               ║ 🗡️  Saldırı Gücü : %d                                    ║
-               ║ ❤️  Can Değeri   : %d                                   ║
-               ║ 🛡️  Savunma      : %d                                    ║
-               ╚══════════════════════════════════════════════════════════╝
+               ║              💚  ŞİFACI SEÇİLDİ  💚                       ║
+               ║ Şifacı müttefiklerinin son umudu olmuştu.                 ║
+               ║ Şifalı büyüleriyle yaraları sarıyor,                      ║
+               ║ lanetleri yok ediyordu.                                   ║
+               ╠═══════════════════════════════════════════════════════════╝
+               ║ 🗡️  Saldırı Gücü : %d                                      ║
+               ║ ❤️  Can Değeri   : %d                                     ║
+               ║ 🛡️  Savunma      : %d                                      ║
+               ╚═══════════════════════════════════════════════════════════╝
                """.formatted(damage, health, defense);
     }
 } 

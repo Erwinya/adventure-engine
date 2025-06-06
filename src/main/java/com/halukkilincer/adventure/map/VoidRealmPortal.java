@@ -18,10 +18,10 @@ public class VoidRealmPortal extends BattleLoc {
             System.out.println("""
                     
                     ╔══════════════════════════════════════════════════════════╗
-                    ║              ⚠️  ERİŞİM ENGELLENDİ  ⚠️                   ║
+                    ║              ⚠️  ERİŞİM ENGELLENDİ  ⚠️                     ║
                     ╠══════════════════════════════════════════════════════════╣
-                    ║ Boşluk Diyarı'nın kapısına ulaştın, ancak kapı mühürlü! ║
-                    ║ Önce diğer bölgelerdeki görevleri tamamlamalısın:       ║
+                    ║ Boşluk Diyarı'nın kapısına ulaştın, ancak kapı mühürlü!  ║
+                    ║ Önce diğer bölgelerdeki görevleri tamamlamalısın:        ║
                     ║ • Orman Parşömeni                                        ║
                     ║ • Kadim Taş                                              ║
                     ╚══════════════════════════════════════════════════════════╝

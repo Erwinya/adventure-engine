@@ -18,9 +18,9 @@ public class DarkCaverns extends BattleLoc {
                 ╔══════════════════════════════════════════════════════════╗
                 ║                 KARANLIK MAĞARALAR                       ║
                 ╠══════════════════════════════════════════════════════════╣
-                ║ Mağaranın derinliklerinden gelen uğultular...           ║
-                ║ Karanlıkta parlayan gözler seni izliyor.                ║
-                ║ Gölge Canavarları'nın kokusu havada asılı...           ║
+                ║ Mağaranın derinliklerinden gelen uğultular...            ║
+                ║ Karanlıkta parlayan gözler seni izliyor.                 ║
+                ║ Gölge Canavarları'nın kokusu havada asılı...             ║
                 ╚══════════════════════════════════════════════════════════╝
                 """);
         

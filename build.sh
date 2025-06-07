@@ -6,8 +6,7 @@ mkdir -p bin
 
 # Derle
 echo "Derleniyor..."
-javac -d bin src/com/halukkilincer/adventure/launcher/Main.java
-
+javac -d bin /home/erwinya/Desktop/Simple-Text-Based-Adventure-Engine-master/src/main/java/com/halukkilincer/adventure/launcher/Main.java
 # Çalıştır
 echo "Çalıştırılıyor..."
 java -cp bin com.halukkilincer.adventure.launcher.Main 

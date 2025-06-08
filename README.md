@@ -25,7 +25,7 @@ This project is a text-based adventure game developed in Java. Players can choos
 
 1. Clone the project:
 ```bash
-git clone https://github.com/yourusername/Simple-Text-Based-Adventure-Engine.git
+git clone https://github.com/erwinya/Simple-Text-Based-Adventure-Engine.git
 ```
 
 2. Navigate to the project directory:

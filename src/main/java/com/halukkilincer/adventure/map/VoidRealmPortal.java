@@ -6,7 +6,6 @@ import com.halukkilincer.adventure.utils.BattleLoc;
 
 public class VoidRealmPortal extends BattleLoc {
     private static final Enemy VOID_LORD = new Enemy("Void Lord", 25, 250, 100);
-    private boolean hasWon = false;
     
     public VoidRealmPortal(AbstractCharacter player) {
         super(player, "Boşluk Diyarı Kapısı", "🌀", VOID_LORD, "Void Kristali", 1);
@@ -57,7 +56,6 @@ public class VoidRealmPortal extends BattleLoc {
             Thread.sleep(5000);
             System.exit(0);
         }
-        
         return true;
     }
 } 

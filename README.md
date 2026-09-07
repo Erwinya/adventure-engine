@@ -26,10 +26,21 @@ mvn clean package
 java -jar target/text-adventure-1.0-SNAPSHOT.jar
 ```
 
-Run tests:
+Windows PowerShell:
+
+```powershell
+.\mvnw.cmd clean package
+java -jar target\text-adventure-1.0-SNAPSHOT.jar
+```
+
+## Tests
 
 ```bash
 mvn test
+```
+
+```powershell
+.\mvnw.cmd test
 ```
 
 ## Project structure
